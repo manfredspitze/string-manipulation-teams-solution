@@ -26,3 +26,37 @@ print(first_name.isalpha())
 print(first_name.count("a"))
 print(first_name.replace("a","x"))
 print(first_name*3)
+
+
+# Output
+'''
+The number of characters in the name Abraham is: 7
+-1
+Abraham
+ABRAHAM
+abraham
+
+Using the isdigit( ) method...
+False
+
+Using the isalpha( ) method...
+True
+2
+Abrxhxm
+AbrahamAbrahamAbraham
+user@user-office:~/Desktop/demos$ /bin/python3 /home/user/Desktop/demos/testing.py
+The number of characters in the name Abraham is: 7
+Instances of the lowercase letter o in the string Abraham: -1
+Abraham
+ABRAHAM
+abraham
+
+Using the isdigit( ) method...
+False
+
+Using the isalpha( ) method...
+True
+2
+Abrxhxm
+AbrahamAbrahamAbraham
+'''
