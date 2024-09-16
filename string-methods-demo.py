@@ -13,7 +13,7 @@ print(f'The number of characters in the name {first_name} is: {len(first_name)}'
 
 # Continuing with Python string methods
 
-print(first_name.find("o"))
+print(f'Instances of the lowercase letter o in the string Abraham: {first_name.find("o")}')
 print(first_name.capitalize())
 print(first_name.upper())
 print(first_name.lower())
